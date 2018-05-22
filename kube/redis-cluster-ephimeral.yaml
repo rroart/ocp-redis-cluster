@@ -101,7 +101,7 @@ objects:
       dockerStrategy:
         from:
           kind: "DockerImage"
-          name: "centos:7"
+          name: "rhel7"
     output:
       to:
         kind: "ImageStreamTag"
