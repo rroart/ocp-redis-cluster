@@ -1,5 +1,5 @@
-FROM centos:7
-MAINTAINER Marcos Entenza <mak@redhat.com>
+FROM rhel7
+MAINTAINER rroart@gmail.com
 
 LABEL io.k8s.description="3 Node Redis Cluster" \
       io.k8s.display-name="Redis Cluster" \
